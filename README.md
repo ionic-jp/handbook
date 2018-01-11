@@ -18,7 +18,7 @@
 CHAPTER05で誤字誤植がございます。大変申し訳ございません。なお、作業行には影響ありませんので、チュートリアルは問題なく進めていただくことができます。
 
 #### P110 中部 SAMPLE CODE `src/pages/home/home.ts`
-`constructor` で呼び出しているモジュール名が間違っている。
+`constructor` で呼び出していたモジュール名が間違って表記されている。
 
 ```
 constructor(
@@ -27,7 +27,7 @@ constructor(
 
 
 #### P119 下部 SAMPLE CODE `src/pages/home/home.ts`
-`import` の呼び出し順が間違えている。
+前の手順と `import` の呼び出し順が逆になって表記されている。
 
 ```
   import { IonicPage, NavController, LoadingController, Platform } from 'ionic-angular'; => 下
@@ -36,7 +36,7 @@ constructor(
 
 
 #### P122 下部 SAMPLE CODE `src/pages/home/home.ts`
-`HttpClient` の削除忘れ / `Platform` の `import` 忘れ
+前の手順で削除した `HttpClient` の表記が残っている / `Platform` の追加が消えている
 
 ```
 import { Component } from '@angular/core';
@@ -45,7 +45,7 @@ import { IonicPage, NavController, LoadingController, Platform } from 'ionic-ang
 ```
 
 #### P123 中部 SAMPLE CODE `src/pages/article/article.ts`
-`HttpClient` の削除忘れ
+前の手順で削除した `HttpClient` の表記が残っている
 
 ```
 import { Component } from '@angular/core';
