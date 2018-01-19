@@ -1,12 +1,31 @@
 # Ionic Frameworkでつくる モバイルアプリ開発入門
 書籍[「Ionicで作る モバイルアプリ制作入門〈Web/iPhone/Android対応〉](http://amzn.to/2mstNnh)」のサポートページです。著者と[Ionic Japan User Group](https://t.co/K9slM8tvi8)にて運営を行っております。
 
+## サポートチャンネル
+Ionic Japan User Groupのslack #ionic-book でサポートを行っております。なぜかうまく動かない、よくわからない、ということありましたら挫折する前にぜひご利用くださいませー。
+
+[Ionic Japan User Groupのslack](https://t.co/K9slM8tvi8で)
+
 ## チュートリアル
 本書のチュートリアルは、以下のレポジトリでステップ別に公開しています。なぜか動かない時などにご利用下さい。
 - [チュートリアル「タスクリストアプリをつくってみよう」](https://github.com/Ionic-jp/ionic-tutorial)
 - [チュートリアル「WordPressを表示するアプリをつくろう」](https://github.com/Ionic-jp/wp-tutorial)
 - [チュートリアル「コードリファクタリング」](https://github.com/Ionic-jp/rf-tutorial)
 - [チュートリアル「スマホアプリの機能をつけよう」](https://github.com/Ionic-jp/native-tutorial)
+
+## スマホでの実行がうまくいかない場合
+### Xcodeがうまくいかない方
+#### `io.ionic.starter ~` とエラーがでる場合
+P44 の最終行で案内していますように「io.ionic.starter」 と設定されている `Bundle identifier`を変更してください。同一IDで実行している人がいてエラーがでているので、`starter`を適当な文字列に変更すればOKです。
+
+### Android Studioがうまくいかない方
+#### ▶ が有効にならない
+多くの場合はファイル読み込みに時間がかかっています。最下部のバーが`Run selected configuration`になるまでお待ち下さい。
+
+![Android Studioのロード中表示](image/androidstudio_footer_loading.png)
+
+#### エミュレーターが選択できない
+Android Studioインストール直後は、バーチャルデバイスデータがないのでダウンロードする必要があります。▶をクリックして起動したモーダル右下の「Create New Vitual Device」を選択して起動したいバーチャルデバイスを選択し、バーチャルデバイスデータをDLしてください（時間がかかります）
 
 ## 本書での誤字・誤植
 誤字・誤植についてご案内いたします。「間違った記述もしくはチュートリアルを進めることができないもの」は *致命的な誤字誤植* 、 そうでないものを *その他の誤字誤植* として案内しております。
