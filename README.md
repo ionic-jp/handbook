@@ -2,7 +2,7 @@
 書籍[「Ionicで作る モバイルアプリ制作入門〈Web/iPhone/Android対応〉](http://amzn.to/2mstNnh)」のサポートページです。著者と[Ionic Japan User Group](https://t.co/K9slM8tvi8)にて運営を行っております。
 
 ## サポートチャンネル
-Ionic Japan User Groupのslack #ionic-book でサポートを行っております。なぜかうまく動かない、よくわからない、ということありましたら挫折する前にぜひご利用くださいませー。
+Ionic Japan User Groupのslack #ionic-handbook でサポートを行っております。なぜかうまく動かない、よくわからない、ということありましたら挫折する前にぜひご利用くださいませー。
 
 [Ionic Japan User Groupのslack](https://t.co/K9slM8tvi8で)
 
