@@ -4,7 +4,7 @@
 ## サポートチャンネル
 Ionic Japan User Groupのslack #ionic-handbook でサポートを行っております。なぜかうまく動かない、よくわからない、ということありましたら挫折する前にぜひご利用くださいませー。
 
-[Ionic Japan User Groupのslack](https://t.co/K9slM8tvi8で)
+[Ionic Japan User Groupのslack](https://t.co/K9slM8tvi8)
 
 ## チュートリアル
 本書のチュートリアルは、以下のレポジトリでステップ別に公開しています。なぜか動かない時などにご利用下さい。
