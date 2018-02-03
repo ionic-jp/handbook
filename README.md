@@ -69,3 +69,12 @@ import { IonicPage, NavController, LoadingController, Platform } from 'ionic-ang
 ```
 import { HttpClient } from '@angular/common/http'; => 削除
 ```
+
+### CHAPTER08
+
+#### P174 上部
+誤字。
+
+```
+C++で書くXamarin　=> C#で書くXamarin
+```
