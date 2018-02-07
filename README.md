@@ -16,9 +16,16 @@ Ionic Japan User Groupのslack #ionic-handbook でサポートを行っており
 ## スマホでの実行がうまくいかない場合
 ### Xcodeがうまくいかない方
 #### `io.ionic.starter ~` とエラーがでる場合
-P44 の最終行で案内していますように「io.ionic.starter」 と設定されている `Bundle identifier`を変更してください。同一IDで実行している人がいてエラーがでているので、`starter`を適当な文字列に変更すればOKです。
+P44 の最終行で案内していますように「io.ionic.starter」 と設定されている `Bundle identifier`を変更してください。同一IDで実行している人がいてエラーがでているので、`starter`を適当な文字列に変更ください。
+
+なお、CHAPTER06 チュートリアル「スマホアプリの機能をつけよう」では、必ず `Bundle identifier`はXcodeではなく、config.xmlから変更ください（2行目の`id`がそれに該当します）。
 
 ### Android Studioがうまくいかない方
+#### `Failed find Build Tools revision ~`とエラーがでる
+Android Studioのビルドツールがない/バージョンが古ければ表示されます。エラー表示上のリンクをクリックして、ビルドツールをインストールください。
+
+![Android Studioのロード中表示](image/androidstudio_install.png)
+
 #### ▶ が有効にならない
 多くの場合はファイル読み込みに時間がかかっています。最下部のバーが`Run selected configuration`になるまでお待ち下さい。
 
