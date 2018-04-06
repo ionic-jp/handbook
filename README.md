@@ -79,9 +79,12 @@ import { HttpClient } from '@angular/common/http'; => 削除
 
 #### CHAPTER05
 
-#### P130 SAMPLE CODE `src/config.xml
+#### P130 SAMPLE CODE `src/config.xml`
+ファイルパスの間違え。
 
-`src/config.xml` ではなく、Ionicプロジェクト直下の config.xml`
+```
+src/config.xml => config.xml （Ionicプロジェクト直下）
+```
 
 ### CHAPTER08
 
