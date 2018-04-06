@@ -77,6 +77,12 @@ import { IonicPage, NavController, LoadingController, Platform } from 'ionic-ang
 import { HttpClient } from '@angular/common/http'; => 削除
 ```
 
+#### CHAPTER05
+
+#### P130 SAMPLE CODE `src/config.xml
+
+`src/config.xml` ではなく、Ionicプロジェクト直下の config.xml`
+
 ### CHAPTER08
 
 #### P174 上部
