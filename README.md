@@ -1,6 +1,38 @@
 # Ionic Frameworkでつくる モバイルアプリ開発入門
 書籍[「Ionicで作る モバイルアプリ制作入門〈Web/iPhone/Android対応〉](http://amzn.to/2mstNnh)」のサポートページです。著者と[Ionic Japan User Group](https://t.co/K9slM8tvi8)にて運営を行っております。
 
+## コマンドの変更
+Ionicの現行バージョンがv4となりました（2019年1月末〜）。本書はv3について取り扱っておりますので、コマンドが変更になります。本書内にあります
+
+```
+$ ionic start
+```
+
+はすべて以下のようにオプションが必要になりました。
+
+```
+$ ionic start --type=ionic-angular
+```
+
+
+### P32 下部
+```
+import { HttpClient } from '@angular/common/http'; => 削除
+```
+
+### P93 上部
+```
+$ ionic start wp-tutorial => $ ionic start wp-tutorial --type=ionic-angular
+```
+
+### P132 上部
+```
+$ ionic start native-tutorial => $ ionic start native-tutorial --type=ionic-angular
+```
+
+
+と読み替えいただきますようお願い申し上げます。
+
 ## サポートチャンネル
 Ionic Japan User Groupのslack #ionic-handbook でサポートを行っております。なぜかうまく動かない、よくわからない、ということありましたら挫折する前にぜひご利用くださいませー。
 
